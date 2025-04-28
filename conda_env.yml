@@ -26,6 +26,7 @@ dependencies:
   - ca-certificates=2025.4.26=hbd8a1cb_0
   - certifi=2021.5.30=py36h06a4308_0
   - cffi=1.14.5=py36h261ae71_0
+  - cloudpickle=1.6.0=py_0
   - compilers=1.1.1=0
   - cudatoolkit=10.0.130=0
   - cudnn=7.6.5=cuda10.0_0
@@ -37,29 +38,35 @@ dependencies:
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.3=py36_0
   - expat=2.2.10=he6710b0_2
+  - ffmpeg=4.2.2=h20bf706_0
   - fontconfig=2.13.0=h9420a91_0
   - fortran-compiler=1.1.1=he991be0_0
   - freetype=2.10.4=h5ab3b9f_0
-  - gast=0.5.3=pyhd3eb1b0_0
+  - future=0.18.2=py36_1
+  - gast=0.2.2=py_0
   - gcc_impl_linux-64=7.3.0=habb00fd_1
   - gcc_linux-64=7.3.0=h553295d_17
   - gfortran_impl_linux-64=7.3.0=hdf63c60_5
   - gfortran_linux-64=7.3.0=h553295d_17
   - glib=2.66.1=h92f7085_0
+  - gmp=6.2.1=h295c915_3
+  - gnutls=3.6.15=he1e5248_0
   - google-pasta=0.2.0=py_0
   - grpcio=1.31.0=py36hf8bcb03_0
   - gst-plugins-base=1.14.0=h8213a91_2
   - gstreamer=1.14.0=h28cd5cc_2
   - gxx_impl_linux-64=7.3.0=hdf63c60_1
   - gxx_linux-64=7.3.0=h553295d_17
+  - gym=0.18.0=py36hcb3619a_1
   - h5py=2.10.0=py36hd6299e0_1
   - hdf5=1.10.6=hb1b8bf9_0
   - icu=58.2=he6710b0_3
   - imageio=2.9.0=py_0
   - importlib-metadata=2.0.0=py_1
   - intel-openmp=2020.2=254
+  - ipdb=0.13.7=pyhd8ed1ab_0
   - ipykernel=5.3.4=py36h5ca1d4c_0
-  - ipython=6.1.0=py36_0
+  - ipython=5.8.0=py36_1
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
   - ipywidgets=7.6.3=pyhd3eb1b0_1
   - jedi=0.18.0=py36h06a4308_1
@@ -78,6 +85,7 @@ dependencies:
   - keras-base=2.3.1=py36_0
   - keras-preprocessing=1.1.0=py_1
   - kiwisolver=1.3.0=py36h2531618_0
+  - lame=3.100=h7b6447c_0
   - lcms2=2.11=h396b838_0
   - ld_impl_linux-64=2.33.1=h53a641e_7
   - libboost=1.73.0=h3ff78a5_11
@@ -85,12 +93,17 @@ dependencies:
   - libffi=3.3=he6710b0_2
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.3.0=hdf63c60_0
+  - libidn2=2.3.2=h7f8727e_0
+  - libopus=1.3.1=h7b6447c_0
   - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.13.0.1=hd408876_0
   - libsodium=1.0.18=h7b6447c_0
   - libstdcxx-ng=9.1.0=hdf63c60_0
+  - libtasn1=4.16.0=h27cfd23_0
   - libtiff=4.1.0=h2733197_1
+  - libunistring=0.9.10=h27cfd23_0
   - libuuid=1.0.3=h1bed415_2
+  - libvpx=1.7.0=h439df22_0
   - libxcb=1.14=h7b6447c_0
   - libxml2=2.9.10=hb55368b_3
   - lz4-c=1.9.2=heb0550a_3
@@ -108,10 +121,12 @@ dependencies:
   - nbformat=5.1.3=pyhd3eb1b0_0
   - ncurses=6.2=he6710b0_1
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
+  - nettle=3.7.3=hbbd107a_1
   - notebook=6.3.0=py36h06a4308_0
   - numpy=1.19.2=py36h54aff64_0
   - numpy-base=1.19.2=py36hfa32c7d_0
   - olefile=0.46=py36_0
+  - openh264=2.1.1=h4ff587b_0
   - openssl=1.1.1w=h7f8727e_0
   - packaging=20.9=pyhd3eb1b0_0
   - pandas=1.1.5=py36ha9443f7_0
@@ -123,6 +138,7 @@ dependencies:
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pip=20.3.3=py36h06a4308_0
   - prometheus_client=0.10.1=pyhd3eb1b0_0
+  - prompt_toolkit=1.0.15=py36_0
   - protobuf=3.13.0.1=py36he6710b0_1
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pycparser=2.20=py_2
@@ -166,6 +182,7 @@ dependencies:
   - wheel=0.36.2=pyhd3eb1b0_0
   - widgetsnbextension=3.5.1=py36_0
   - wrapt=1.12.1=py36h7b6447c_1
+  - x264=1!157.20191217=h7b6447c_0
   - xz=5.2.5=h7b6447c_0
   - yaml=0.2.5=h7b6447c_0
   - zeromq=4.3.4=h2531618_0
@@ -175,10 +192,12 @@ dependencies:
   - pip:
       - backcall==0.2.0
       - decorator==4.4.2
-      - future==0.18.2
+      - dm-sonnet==1.23
+      - dm-tree==0.1.6
       - networkx==2.5.1
       - pillow==7.2.0
       - prompt-toolkit==3.0.18
       - pygame==2.1.0
       - pyglet==1.5.0
+      - tensorflow-determinism==0.3.0
       - toml==0.10.2
